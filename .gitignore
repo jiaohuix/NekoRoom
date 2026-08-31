@@ -1,0 +1,96 @@
+# Secrets / local configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+*.jks
+*.keystore
+secrets/
+credentials/
+local.properties
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.venv/
+venv/
+env/
+dist/
+build/
+*.egg-info/
+
+# Android / Gradle / Kotlin
+.gradle/
+**/build/
+captures/
+.externalNativeBuild/
+.cxx/
+.kotlin/
+*.apk
+*.aab
+
+# JavaScript / Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Flutter / Dart
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+build/
+
+# IDE / editors
+.idea/
+.vscode/
+*.iml
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Logs / runtime data
+*.log
+logs/
+tmp/
+temp/
+.cache/
+cache/
+*.sqlite
+*.sqlite3
+*.db
+*.db-journal
+
+# Models / checkpoints / datasets
+models/
+weights/
+checkpoints/
+datasets/
+data/private/
+*.safetensors
+*.gguf
+*.ckpt
+*.pt
+*.pth
+
+# Generated / local artifacts
+artifacts/
+outputs/
+
+# Local bootstrap references; never publish staging templates or private review material.
+ref_codes/
+downloads/
