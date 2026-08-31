@@ -22,9 +22,9 @@ NekoRoom 是一个正在开发中的开源 AI 陪伴项目，关注自然对话�
 
 | 能力 | 默认模型 | 模型仓库 | 设备目录（相对于 `models/`） | 备注 |
 |---|---|---|---|---|
-| LLM | Neko 猫娘 v1.1 | `jiaohui/qwen35_08b_nekoneko_v2.1-MNN` | `llm/qwen35_08b_nekoneko_v2.1-MNN/` | Jiaohuix 训练/维护 |
-| TTS | NekoVoice 1.3 | `jiaohui/NekoVoice-1.3` | `tts/v13-int8/` | Jiaohuix 训练/维护 |
-| ASR | 语音识别 1.2 | `jiaohui/zipformer-medium-MNN` | `asr/medium-fp16/` | 默认语音识别模型 |
+| LLM | Neko 猫娘 v1.1 | [`jiaohui/qwen35_08b_nekoneko_v2.1-MNN`](https://modelscope.cn/models/jiaohui/qwen35_08b_nekoneko_v2.1-MNN) | `llm/qwen35_08b_nekoneko_v2.1-MNN/` | Jiaohuix 训练/维护 |
+| TTS | NekoVoice 1.3 | [`jiaohui/NekoVoice-1.3`](https://modelscope.cn/models/jiaohui/NekoVoice-1.3) | `tts/v13-int8/` | Jiaohuix 训练/维护 |
+| ASR | 语音识别 1.2 | [`jiaohui/zipformer-medium-MNN`](https://modelscope.cn/models/jiaohui/zipformer-medium-MNN) | `asr/medium-fp16/` | 默认语音识别模型 |
 
 模型权重不随源码仓库发布，应用运行时按需下载或从本地补齐。模型及数据集仍需遵守各自的授权条款。
 
