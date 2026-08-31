@@ -42,7 +42,6 @@ NekoRoom 是一个正在开发中的开源 AI 陪伴项目，关注自然对话�
 - [Live2D Cubism SDK](https://www.live2d.com/)：Live2D 角色渲染支持，须遵守官方授权条款。
 - [NekoAudio-80K](https://huggingface.co/datasets/liumindmind/Neko_Audio-80K_Shor)：NekoVoice 训练和实验使用的猫娘语音数据集。
 
-上述项目、模型、数据集和 SDK 的版权及许可证归各自权利人所有；本仓库的 AGPL-3.0-only 不会替代或扩展它们各自的授权范围。
 
 ## 初始源码计划
 
