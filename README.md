@@ -32,6 +32,18 @@ NekoRoom 是一个正在开发中的开源 AI 陪伴项目，关注自然对话�
 
 感谢 [NekoAudio-80K](https://huggingface.co/datasets/liumindmind/Neko_Audio-80K_Shor) 数据集，为 NekoVoice 的训练和实验提供了帮助。
 
+## 核心项目致谢
+
+本项目的实现和运行依赖以下核心项目：
+
+- [MNN](https://github.com/alibaba/MNN)：端侧神经网络推理框架。
+- [sherpa-mnn](https://github.com/k2-fsa/sherpa-mnn)：语音识别及相关语音能力支持。
+- [SuperTonic](https://github.com/supertone-inc/supertonic)：端侧语音合成能力和推理流程参考。
+- [Live2D Cubism SDK](https://www.live2d.com/)：Live2D 角色渲染支持，须遵守官方授权条款。
+- [NekoAudio-80K](https://huggingface.co/datasets/liumindmind/Neko_Audio-80K_Shor)：NekoVoice 训练和实验使用的猫娘语音数据集。
+
+上述项目、模型、数据集和 SDK 的版权及许可证归各自权利人所有；本仓库的 AGPL-3.0-only 不会替代或扩展它们各自的授权范围。
+
 ## 初始源码计划
 
 第一份源码 PR 计划导入现有 NekoChat 实现，尽量保持原有结构，避免把大规模改名和功能变更混在同一个 PR 中。后续会单独处理包名、模块名、界面文字和资源名称迁移。
